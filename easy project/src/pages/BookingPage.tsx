@@ -108,3 +108,6 @@ export function BookingPage() {
         </main>
     );
 }
+
+// Booking flow: two-step process (select dates → confirm)
+// State managed via custom hook for clarity
