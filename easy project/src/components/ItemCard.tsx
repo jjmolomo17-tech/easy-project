@@ -57,3 +57,6 @@ export function ItemCard({ item }: ItemCardProps) {
         </li>
     );
 }
+
+// Reusable card for displaying tool info
+// Props typed via Item interface to ensure strict data consistency

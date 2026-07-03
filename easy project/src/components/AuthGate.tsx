@@ -65,3 +65,6 @@ export function AuthGate({ onVerified }: AuthGateProps) {
         </form>
     );
 }
+
+// Navigation bar: scoped to sprint deliverables (Home + Logout only)
+// Avoids broken links to unimplemented features

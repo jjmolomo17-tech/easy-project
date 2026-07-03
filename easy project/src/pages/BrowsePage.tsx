@@ -86,3 +86,6 @@ export function BrowsePage() {
         </main>
     );
 }
+
+// Browse page: lists items with search + filters
+// Uses mock data layer to simulate API responses
