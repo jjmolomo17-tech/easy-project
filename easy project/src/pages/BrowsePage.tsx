@@ -66,9 +66,9 @@ export function BrowsePage() {
                     onChange={(e) => setFilters((f) => ({ ...f, priceType: e.target.value as typeof f.priceType }))}
                     aria-label="Price"
                 >
-                    <option value="all">Free & paid</option>
-                    <option value="free">Free only</option>
-                    <option value="paid">Paid only</option>
+                    <option value="all">Hire/Rent</option>
+                    <option value="free">Purchase only</option>
+                    <option value="paid">Lending time only</option>
                 </select>
             </div>
 
