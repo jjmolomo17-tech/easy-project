@@ -53,7 +53,7 @@ export function ItemDetailPage() {
 
             {isBookable ? (
                 <Link to={`/items/${item.id}/book`}>
-                    <button type="button">Book now</button>
+                    <button type="button">Hire Now</button>
                 </Link>
             ) : (
                 // Explains *why* booking isn't available rather than just
