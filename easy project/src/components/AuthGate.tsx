@@ -66,5 +66,5 @@ export function AuthGate({ onVerified }: AuthGateProps) {
     );
 }
 
-// Navigation bar: scoped to sprint deliverables (Home + Logout only)
+// Auth : scoped to sprint deliverables (Home + Logout only)
 // Avoids broken links to unimplemented features
