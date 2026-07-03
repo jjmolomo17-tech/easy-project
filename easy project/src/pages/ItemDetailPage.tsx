@@ -63,3 +63,7 @@ export function ItemDetailPage() {
         </main>
     );
 }
+
+
+// Item detail view: shows photos, owner info, and booking CTA
+// BOOK NOW button triggers booking flow state machine
