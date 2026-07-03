@@ -15,3 +15,6 @@ export function App() {
     </BrowserRouter>
   );
 }
+
+// Root component: defines global layout and routes
+// Wraps pages with shared providers (auth, theme, etc.)
