@@ -66,5 +66,5 @@ export function AuthGate({ onVerified }: AuthGateProps) {
     );
 }
 
-// Auth : scoped to sprint deliverables (Home + Logout only)
-// Avoids broken links to unimplemented features
+// Authentication gate: forces sign-up before browsing
+// Implements founder’s growth-hack request, but scoped ethically
